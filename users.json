@@ -1,0 +1,75 @@
+{
+"users":
+    [
+        {
+            "username": "Roberto Wagner",
+            "comment": "Nice.",
+            "picture": "assets/media/icons/users/icon-1.jpg",
+            "email":"lookatthem@gmail.com",
+            "password": "powerofthevoid"
+        },
+        {
+            "username": "Claire Howard",
+            "comment": "VERY nice.",
+            "picture": "assets/media/icons/users/icon-2.jpg",
+            "email": "theycometo@gmail.com",
+            "password": "iwascutinhalf"
+        },
+        {
+            "username": "Jonathan Barker",
+            "comment": "O K!",
+            "picture": "assets/media/icons/users/icon-3.jpg",
+            "email": "thisplacewhen@gmail.com",
+            "password": "destroyedbutthrough"
+        },
+        {
+            "username": "Dianna Summers",
+            "comment": "Good.",
+            "picture": "assets/media/icons/users/icon-4.jpg",
+            "email": "theyknowthey@gmail.com",
+            "password": "itsJanusKey"
+        },
+        {
+            "username": "Dobbie Andrews",
+            "comment": "Yes.",
+            "picture": "assets/media/icons/users/icon-5.jpg",
+            "email": "arenotpure@gmail.com",
+            "password": "thevoidcalledtome"
+        },
+        {
+            "username": "Isabel May",
+            "comment": "I liked it.",
+            "picture": "assets/media/icons/users/icon-6.jpg",
+            "email": "tennousethe@gmail.com",
+            "password": "itbroughtmehere"
+        },
+        {
+            "username": "Geraldo Del Rivero",
+            "comment": "hmm yes, very good",
+            "picture": "assets/media/icons/users/icon-7.jpg",
+            "email": "keysbutthey@gmail.com",
+            "password": "andhereIwasreborn"
+        },
+        {
+            "username": "Virgen Nickel",
+            "comment": "да",
+            "picture": "assets/media/icons/users/default.jpg",
+            "email": "aremeretrespassers@gmail.com",
+            "password": "wecannotblamethese"
+        },
+        {
+            "username": "Pablo Garfiel",
+            "comment": "¿Dónde está el baño?",
+            "picture": "assets/media/icons/users/default.jpg",
+            "email": "onlyivor@gmail.com",
+            "password": "creaturestheyare"
+        },
+        {
+            "username": "Hershel Conyers",
+            "comment": "Sehr gut, ja.",
+            "picture": "assets/media/icons/users/default.jpg",
+            "email": "knowthetrue@gmail.com",
+            "password": "beingledbya"
+        }
+    ]
+}

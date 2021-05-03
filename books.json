@@ -1,0 +1,368 @@
+{
+    "bestsellers": [
+        {
+            "id": "1922901286",
+            "title": "Fahrenheit 451",
+            "author": "Ray Bradbury",
+            "format": "Paperback",
+            "price": "9.30",
+            "cover": "assets/media/books/bestselling/fahrenheit-451.jpg",
+            "genre": [
+                {
+                    "mainGenre": "Novel",
+                    "subGenre": [
+                        "Science Fiction",
+                        "Dystopia",
+                        "Modern Classics"
+                    ] 
+                } 
+            ],
+            "publisher": "Simon & Schuster",
+            "publicationDate": "2012 May 23",
+            "language": "English"
+        },
+        {
+            "id": "1516324",
+            "title": "1984",
+            "author": "George Orwell",
+            "format": "Paperback",
+            "price": "9.30",
+            "cover": "assets/media/books/bestselling/1984.jpg",
+            "genre": [
+                {
+                    "mainGenre": "Novel",
+                    "subGenre": [
+                        "Science Fiction",
+                        "Dystopia",
+                        "Speculative Fiction",
+                        "Modern Classics"
+                    ] 
+                } 
+            ],
+            "publisher": "Penguin Books Ltd.",
+            "publicationDate": "2008 Oct 01",
+            "language": "English"
+        },
+        {
+            "id": "-309012206",
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "format": "Paperback",
+            "price": "9.30",
+            "cover": "assets/media/books/bestselling/brave-new-world.jpg",
+            "genre": [
+                {
+                    "mainGenre": "Novel",
+                    "subGenre": [
+                        "Science Fiction",
+                        "Dystopia",
+                        "Speculative Fiction",
+                        "Modern Classics"
+                    ] 
+                } 
+            ],
+            "publisher": "Vintage Classics",
+            "publicationDate": "2019 Mar 08",
+            "language": "English" 
+        },
+        {
+            "id": "312263055",
+            "title": "Clockwork Orange",
+            "author": "Anthony Burgess",
+            "format": "Paperback",
+            "price": "9.30",
+            "cover": "assets/media/books/bestselling/clockwork-orange.jpg",
+            "genre": [
+                {
+                    "mainGenre": "Novel",
+                    "subGenre": [
+                        "Fiction",
+                        "Dystopia",
+                        "Modern Classics"
+                    ] 
+                } 
+            ],
+            "publisher": "Penguin Books Ltd.",
+            "publicationDate": "2011 Jun 16",
+            "language": "English" 
+        },
+        {
+            "id": "-1778535462",
+            "title": "Animal Farm",
+            "author": "George Orwell",
+            "format": "Paperback",
+            "price": "10.50",
+            "cover": "assets/media/books/bestselling/animal-farm.jpg",
+            "genre": [
+                {
+                    "mainGenre": "Novel",
+                    "subGenre": [
+                        "Fiction",
+                        "Political Satire",
+                        "Allegory",
+                        "Modern Classics"
+                    ] 
+                } 
+            ],
+            "publisher": "Penguin Books Ltd.",
+            "publicationDate": "2008 Oct 01",
+            "language": "English" 
+        }
+        
+    ],
+    "newReleases": [
+        {
+            "sffh": [
+                {
+                    "id": "1552488021",
+                    "title": "No Longer Human",
+                    "author": "J. Ito, O. Dazai",
+                    "format": "Hardback",
+                    "price": "31.50",
+                    "cover": "assets/media/books/new releases/no-longer-human.jpg",
+                    "genre": [
+                        {
+                            "mainGenre": "Novel",
+                            "subGenre": [
+                                "Fiction",
+                                "Japanese Literature"
+                            ] 
+                        } 
+                    ],
+                    "publisher": "Viz Media",
+                    "publicationDate": "2020 Jan 09",
+                    "language": "English" 
+                },
+                {
+                    "id": "1999588925",
+                    "title": "Elevation",
+                    "author": "Stephen King",
+                    "format": "Paperback",
+                    "price": "9.90",
+                    "cover": "assets/media/books/new releases/elevation.jpg",
+                    "genre": [
+                        {
+                            "mainGenre": "Short Story",
+                            "subGenre": [
+                                "Fiction",
+                                "Horror"
+                            ] 
+                        } 
+                    ],
+                    "publisher": "HOODER & STOUGHTON",
+                    "publicationDate": "2018 Nov 07",
+                    "language": "English" 
+                },
+                {
+                    "id": "-1125219518",
+                    "title": "Recursion",
+                    "author": "Blake Crouch",
+                    "format": "Paperback",
+                    "price": "11.50",
+                    "cover": "assets/media/books/new releases/recursion.jpg",
+                    "genre": [
+                        {
+                            "mainGenre": "Novel",
+                            "subGenre": [
+                                "Science Fiction",
+                                "Thriller",
+                                "Time Travel"
+                            ] 
+                        } 
+                    ],
+                    "publisher": "Pan MacMillan",
+                    "publicationDate": "2020 Jan 09",
+                    "language": "English" 
+                },
+                {
+                    "id": "-782331078",
+                    "title": "Tiamat's Wrath",
+                    "author": "James S. A. Corey",
+                    "format": "Paperback",
+                    "price": "13.00",
+                    "cover": "assets/media/books/new releases/tiamats-wrath.jpg",
+                    "genre": [
+                        {
+                            "mainGenre": "Novel",
+                            "subGenre": [
+                                "Science Fiction",
+                                "Space Opera"
+                            ] 
+                        } 
+                    ],
+                    "publisher": "Little, Brown Book Group",
+                    "publicationDate": "2020 Jan 23",
+                    "language": "English" 
+                },
+                {
+                    "id": "1965484579",
+                    "title": "Anarch",
+                    "author": "Dan Abbnet",
+                    "format": "Paperback",
+                    "price": "11.50",
+                    "cover": "assets/media/books/new releases/anarch.jpg",
+                    "genre": [
+                        {
+                            "mainGenre": "Novel",
+                            "subGenre": [
+                                "Science Fiction",
+                                "Horror",
+                                "Action"
+                            ] 
+                        } 
+                    ],
+                    "publisher": "Games Workshop",
+                    "publicationDate": "2020 Jan 23",
+                    "language": "English" 
+                }
+            ]
+        },
+        {
+            "gn": [
+                {
+                    "id": "-1542011192",
+                    "title": "Land of the Lustrous, Vol. 10",
+                    "author": "Haruko Ichikawa",
+                    "format": "Paperback",
+                    "price": "13.00",
+                    "cover": "assets/media/books/new releases/lotl-vol10.jpg",
+                    "genre": [
+                        {
+                            "mainGenre": "Manga",
+                            "subGenre": [
+                                "Fantasy",
+                                "Action"
+                            ] 
+                        } 
+                    ],
+                    "publisher": "Kodanasha America, Inc",
+                    "publicationDate": "2020 Feb 25",
+                    "language": "English" 
+                },
+                {
+                    "id": "-1004150458",
+                    "title": "BEASTARS, Vol. 4",
+                    "author": "Paru Itagaki",
+                    "format": "Paperback",
+                    "price": "11.78",
+                    "cover": "assets/media/books/new releases/beastars-vol4.jpg",
+                    "genre": [
+                        {
+                            "mainGenre": "Manga",
+                            "subGenre": [
+                                "Fantasy",
+                                "Anthropomorphism"
+                            ] 
+                        } 
+                    ],
+                    "publisher": "Viz Media",
+                    "publicationDate": "2020 Feb 10",
+                    "language": "English" 
+                },
+                {
+                    "id": "-661488261",
+                    "title": "My Hero Academia, Vol. 23",
+                    "author": "Kohei Horikoshi",
+                    "format": "Paperback",
+                    "price": "9.30",
+                    "cover": "assets/media/books/new releases/mha-vol23.jpg",
+                    "genre": [
+                        {
+                            "mainGenre": "Manga",
+                            "subGenre": [
+                                "Fantasy",
+                                "Superheroes"
+                            ] 
+                        } 
+                    ],
+                    "publisher": "Viz Media",
+                    "publicationDate": "2020 Feb 20",
+                    "language": "English" 
+                },
+                {
+                    "id": "-1268971688",
+                    "title": "One-Punch Man, Vol. 19",
+                    "author": "One, Y. Murata",
+                    "format": "Paperback",
+                    "price": "10.30",
+                    "cover": "assets/media/books/new releases/one-punch-man-vol19.jpg",
+                    "genre": [
+                        {
+                            "mainGenre": "Manga",
+                            "subGenre": [
+                                "Fantasy",
+                                "Superheroes"
+                            ] 
+                        } 
+                    ],
+                    "publisher": "Viz Media",
+                    "publicationDate": "2020 Mar 19",
+                    "language": "English" 
+                },
+                {
+                    "id": 15,
+                    "title": "Berserk D. E., Vol. 4",
+                    "author": "K. Miura, D. Johnson",
+                    "format": "Hardback",
+                    "price": "48.50",
+                    "cover": "assets/media/books/new releases/berserk-deluxe-vol4.jpg",
+                    "genre": [
+                        {
+                            "mainGenre": "Manga",
+                            "subGenre": [
+                                "Fantasy",
+                                "Dark Fantasy",
+                                "Horror"
+                            ] 
+                        } 
+                    ],
+                    "publisher": "Dark Horse Comics, U.S.",
+                    "publicationDate": "2020 Mar 10",
+                    "language": "English" 
+                }
+            ]
+        }
+    ],
+    "others": [
+        {
+            "id": "1999588925",
+            "title": "Fragile Things",
+            "author": "Neil Gaiman",
+            "format": "Paperback",
+            "price": "12.40",
+            "cover": "assets/media/books/others/fragile-things.jpg",
+            "genre": [
+                {
+                    "mainGenre": "Short Story",
+                    "subGenre": [
+                        "Fantasy",
+                        "Horror"
+                    ] 
+                } 
+            ],
+            "publisher": "Headline Publishing Group",
+            "publicationDate": "2007 Apr 05",
+            "language": "English" 
+        },
+        {
+            "id": "1999588925",
+            "title": "Interpreter of Maladies",
+            "author": "Jhumpa Lahiri",
+            "format": "Paperback",
+            "price": "11.50",
+            "cover": "assets/media/books/others/interpreter-of-maladies.jpg",
+            "genre": [
+                {
+                    "mainGenre": "Short Story",
+                    "subGenre": [
+                        "Fiction",
+                        "Indian Literature"
+                    ] 
+                } 
+            ],
+            "publisher": "HarperCollins Publishers",
+            "publicationDate": "2000 May 12",
+            "language": "English" 
+        }
+    ]
+}

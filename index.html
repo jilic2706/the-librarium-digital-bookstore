@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS and JavaScript -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="assets/media/icons/favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js" type="module"></script>
+    <title>Josip Ilic - Client Programming Project I</title>
+  </head>
+  <body>
+    <!-- First section -->
+    <section id="hero-section">
+      <nav class="navbar shadow-sm navbar-dark navbar-expand-lg fixed-top">
+        <a class="navbar-brand d-flex w-50 mr-auto" href="#">
+          <img id="mode-indicator" src="assets/media/logo/logo-dark.svg" width="46" height="auto" alt="Dark Logo">
+        </a>
+        <button id="toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+          <ul class="navbar-nav w-100 justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-section">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#purchase-section">Purchase</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#catalogue-section">Catalogue</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#generate-section">Generate</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+            <li class="nav-item">
+              <button id="mode" type="button" class="btn btn-light">Mode</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div id="hero-text">
+        <h1>Librarium</h1>
+      </div>
+    </section>
+    
+    <!-- Second section -->
+    <section class="pb-5" id="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col text-justify">
+            <div class="jumbotron jumbotron-fluid bg-0o pb-0">
+              <div class="container">
+                <h1 class="display-4 pb-2 text-center">Where are you?</h1>
+                <hr class="my-4">
+                <p class="lead">Welcome to the Librarium, traveler.</p>
+                <p>Here you will find a place where one can either purchase an interesting tome or easily catalogue their growing library.</p>
+                <p>Be it profane books bound in human flesh or quaint instructionals on how to teach crabs to read and write, we might just have it.</p>
+                <p>However, should you welcome a good surprise, you can allow us to find you a book we think you'll like (granted that you have provided your preferences, of course).</p>
+              </div>
+            </div>
+          </div>
+          <div class="col text-justify">
+            <div class="jumbotron jumbotron-fluid bg-0o pb-0">
+              <div class="container">
+                <h1 class="display-4 pb-2 text-center">Where are we?</h1>
+                <hr class="my-4">
+                <div id="globe">
+                  <img id="globe-icon" src="assets/media/icons/globe.svg" alt='Icon of the globe'>
+                  <div class="overlay-text">
+                    <h1>Everywhere</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col text-justify">
+            <div class="jumbotron jumbotron-fluid bg-0o pb-0">
+              <div class="container">
+                <h1 class="display-4 pb-2 text-center">Customer feedback:</h1>
+                <hr class="my-4">
+                
+                <ul id="feedback" class="list-unstyled">
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <div class="jumbotron jumbotron-fluid bg-0o pt-0 pb-0">
+              <div class="container">
+                <h1 class="display-4 pb-2">What can you do here?</h1>
+                <hr class="my-4">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="card mx-auto bg-0o no-border">
+                  <a href="#purchase-section"><img id="purchase-icon" src="assets/media/icons/purchase.svg" class="card-img-top" alt="Icon of a shopping cart"></a>
+                  <div class="card-body">
+                    <h3 class="card-title">Purchase</h3>
+                    <p class="card-text">Find and buy your next great read.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mx-auto bg-0o no-border">
+                  <a href="#catalogue-section"><img id="catalogue-icon" src="assets/media/icons/catalogue.svg" class="card-img-top" alt="Icon of a catalogue"></a>
+                  <div class="card-body">
+                    <h3 class="card-title">Catalogue</h3>
+                    <p class="card-text">Keep track of the books that you own.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mx-auto bg-0o no-border">
+                  <a href="#generate-section"><img id="generate-icon" src="assets/media/icons/generate.svg" class="card-img-top" alt="Icon of a question mark"></a>
+                  <div class="card-body">
+                    <h3 class="card-title">Generate</h3>
+                    <p class="card-text">Allow us to find you something nice.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Third section (partially finished) -->
+    <section class="pb-5" id="purchase-section">
+      <div class="container">
+        <div class="row">
+          <div class="col"> 
+            <h1 class="display-4 pb-2">Purchase</h1>
+            <p class="lead">Bestselling</p>
+          </div> 
+        </div>
+        <div id="bestsellers" class="row align-baseline text-left border border-info rounded pt-4">
+        
+        </div>
+        <div class="row pt-4">
+          <div class="col">
+            <p class="lead">New Releases - Science Fiction, Fantasy, Horror</p>
+          </div>
+        </div>
+        <div id="new-releases-sffh" class="row align-baseline text-left border border-info rounded pt-4">
+          
+        </div>
+        <div class="row pt-4">
+          <div class="col">
+            <p class="lead">New Releases - Graphic Novels</p>
+          </div>
+        </div>
+        <div id="new-releases-gn" class="row align-baseline text-left border border-info rounded pt-4">
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="pb-5" id="catalogue-section">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="display-4 pb-2">Catalogue</h1>
+          </div>
+        </div>
+        <div class="row long border border-info">
+          <div class="col border-right border-info">
+            <div class="row align-items-center">
+              <div class="col text-center">
+                <p class="lead p-2 m-0">Owned</p>
+                <hr class="my-4">
+              </div>
+            </div> 
+            <div id="ownedBooks" class="row align-baseline text-left">
+              <p class="center">
+                You haven't added anything yet.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row align-items-center">
+              <div class="col text-center">
+                <p class="lead p-2 m-0">Bought</p>
+                <hr class="my-4">
+              </div>
+            </div> 
+            <div id="purchases" class="row align-baseline text-left">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fourth section -->
+    <section class="pb-5" id="generate-section">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="display-4 pb-2">Generate</h1>
+          </div>
+        </div>
+        <div class="row align-items-center long border border-info">
+          <div class="col">
+            <div id="selects">
+            
+            </div>    
+          </div>
+          <div class="col">
+            <div class="card mx-auto bg-0o no-border" id="result">
+              <img id="result-book" class="card-img-top border border-info" src="assets/media/books/others/default.svg" alt='Icon of the globe'>
+              <div class="card-body">
+                <p id="result-book-title" class="card-title">Book Title</p>
+                <p id="result-book-author" class="card-text">Book Author</p>
+                <p id="result-book-format" class="card-text">Book Format</p>
+                <p id="result-book-price" class="card-text">Book Price</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <button id="clean" class="btn btn-light"><i class="fa fa-trash"></i></button>
+  </body>
+</html>
