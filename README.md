@@ -1,2 +1,2 @@
 # the-librarium
-An imagined online bookstore made with JavaScript and Bootstrap.
+An imagined online bookstore made with HTML, CSS, JavaScript and Bootstrap.
